@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "/Users/hanzhiqiang/.conan2/p/b/zlibc6faa35a36d25/p/include",
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/build"
+            ],
+            "defines": ["_DEBUG"],
+            "macFrameworkPath": [],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+
+}

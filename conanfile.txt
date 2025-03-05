@@ -1,0 +1,6 @@
+[requires]
+zlib/1.2.13  # 添加 zlib 依赖
+
+[generators]
+CMakeDeps
+CMakeToolchain

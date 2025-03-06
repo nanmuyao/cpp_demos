@@ -1,16 +1,19 @@
 {
-    "version": "0.2.0",
-    "configurations": [{
+  "version": "0.2.0",
+  "configurations": [
+    
+
+    {
       "name": "C++ Debug",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${fileDirname}/${fileBasenameNoExtension}",
+      "program": "${workspaceFolder}/build/bin/MyProject",  // 确保路径正确
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",
       "environment": [],
       "externalConsole": false,
       "MIMode": "lldb",
-      "preLaunchTask": "C++ Build"  // 必须与 tasks.json 中的 "label" 一致
-    }]
-  }
+      "preLaunchTask": "CMake Build"  // 必须与 tasks.json 中的 "label" 一致
+  }]
+}

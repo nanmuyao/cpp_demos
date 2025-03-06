@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [{
+      "name": "C++ Debug",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}/${fileBasenameNoExtension}",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "lldb",
+      "preLaunchTask": "C++ Build"  // 必须与 tasks.json 中的 "label" 一致
+    }]
+  }

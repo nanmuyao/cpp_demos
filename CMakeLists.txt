@@ -3,6 +3,7 @@ cmake_minimum_required(VERSION 3.10)  # 指定所需的最低 CMake 版本
 
 project(MyProject LANGUAGES CXX)  # 定义项目名称和使用的编程语言
 
+# 开启debug模式
 set(CMAKE_BUILD_TYPE Debug)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)  # 设置可执行文件的输出目录

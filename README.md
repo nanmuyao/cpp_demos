@@ -1,17 +1,8 @@
 1. 使用conan添加项目依赖
 
-2. 使用CMake构建项目
+2. 调试项目
+a. ./build.sh
+b. 使用vscode调试
 
-```bash
-    cmake -S /Users/hanzhiqiang/Documents/workspace_lx/cpp_demos -B /Users/hanzhiqiang/Documents/workspace_lx/cpp_demos/build -DCMAKE_BUILD_TYPE=Debug
-```
-
-3. 使用CMake构建项目
-
-```bash
-    cmake --build . --config Release
-```
-
-4. 使用CMake构建项目
-
-```bash
+3. 练习，不需要包含.h文件
+    g++ sales_item.cpp -o main

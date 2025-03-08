@@ -1,6 +1,7 @@
 {
     "files.associations": {
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "iostream": "cpp"
     }
 } // {
 //     "workbench.sideBar.location": "left",         // 确保侧边栏在左侧

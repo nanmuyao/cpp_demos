@@ -12,11 +12,22 @@ T my_max(T a, T b) {
 }
 }
 
+int main() {
+  int v1, v2;
 
-int main(void) {
-  // std::cout << "zlib version: " << zlibVersion() << std::endl;
+  std::cout << "enter two number:" << std::endl;
+  std::cin >> v1 >> v2;
 
-  std::cout << my_max(1, 2) << std::endl;
+  std::cout << v1 + v2 << std::endl;
 
   return 0;
 }
+
+
+// int main(void) {
+//   // std::cout << "zlib version: " << zlibVersion() << std::endl;
+
+//   std::cout << my_max(1, 2) << std::endl;
+
+//   return 0;
+// }

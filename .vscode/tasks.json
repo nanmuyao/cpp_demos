@@ -3,7 +3,7 @@
     "tasks": [
         {
             "type": "shell",
-            "label": "CMake Build",
+            "label": "CMake Build xiaode",
             "command": "cmake",
             "args": [
                 "--build",
@@ -14,7 +14,10 @@
             },
             "problemMatcher": [],
             "group": "build",
-            "detail": "使用 CMake 构建项目"
+            "detail": "使用 CMake 构建项目",
+            "presentation": {
+                "close": true
+            }
         }
     ]
 }

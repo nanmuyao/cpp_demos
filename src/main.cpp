@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
 
-#include "zlib.h"
+// #include "zlib.h"
 
 template <typename T>
-T max(T a, T b) {
+T my_max(T a, T b) {
   if (a > b) {
     return a;
   } else {
@@ -14,9 +14,9 @@ T max(T a, T b) {
 
 
 int main(void) {
-  std::cout << "zlib version: " << zlibVersion() << std::endl;
+  // std::cout << "zlib version: " << zlibVersion() << std::endl;
 
-  std::cout << "abc" << std::endl;
+  std::cout << my_max(1, 2) << std::endl;
 
   return 0;
 }

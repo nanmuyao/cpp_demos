@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "ostream": "cpp"
+    }
+} // {
+//     "workbench.sideBar.location": "left",         // 确保侧边栏在左侧
+//     "workbench.iconTheme": "vs-minimal",         // 使用 VS Code 风格的图标
+//     "workbench.activityBar.visible": true,       // 显示活动栏（左侧图标栏）
+//     "workbench.statusBar.visible": true,         // 显示底部状态栏
+//     "workbench.editor.showTabs": true            // 显示文件标签页
+//   }

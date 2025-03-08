@@ -1,3 +1,0 @@
-/Users/hanzhiqiang/Documents/workspace_lx/cpp_demos/build/CMakeFiles/MyProject.dir
-/Users/hanzhiqiang/Documents/workspace_lx/cpp_demos/build/CMakeFiles/edit_cache.dir
-/Users/hanzhiqiang/Documents/workspace_lx/cpp_demos/build/CMakeFiles/rebuild_cache.dir

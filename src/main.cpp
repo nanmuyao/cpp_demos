@@ -6,10 +6,10 @@ using namespace std;
 template <typename T>
 T my_max(T a, T b) {
   if (a > b) {
-    return a;
+      return a;
   } else {
-  return b;
-}
+      return b;
+  }
 }
 
 int main() {

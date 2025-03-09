@@ -14,14 +14,20 @@ void swap_v2(int *v1, int *v2) {
   *v2 = temp;
 }
 
+// int main() {
+//     int a = 10, b = 20;
+//     swap(a, b);
+//     std::cout << a << " " << b << std::endl;
+
+//     int a1 = 10, b1 = 20;
+//     swap_v2(&a1, &b1);
+//     std::cout << "v2: " << a1 << " " << b1 << std::endl;
+
+//     return 0;
+// }
+
 int main() {
-    int a = 10, b = 20;
-    swap(a, b);
-    std::cout << a << " " << b << std::endl;
-
-    int a1 = 10, b1 = 20;
-    swap_v2(&a1, &b1);
-    std::cout << "v2: " << a1 << " " << b1 << std::endl;
-
+    int *p = nullptr;
+    std::cout << p << std::endl;
     return 0;
-}
+} 

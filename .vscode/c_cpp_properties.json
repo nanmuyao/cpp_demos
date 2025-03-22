@@ -5,7 +5,8 @@
             "includePath": [
                 "/Users/hanzhiqiang/.conan2/p/b/zlibc6faa35a36d25/p/include",
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/build"
+                "${workspaceFolder}/build",
+                "/Users/hanzhiqiang/.conan2/p/b/mongo1572bcdfb3c2e/p/include"
             ],
             "defines": ["_DEBUG"],
             "macFrameworkPath": [],

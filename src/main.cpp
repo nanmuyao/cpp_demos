@@ -1,4 +1,6 @@
 #include <iostream>
+#include "mongoose.h"
+#include "zlib.h"
 using namespace std;
 
 // #include "zlib.h"
@@ -13,21 +15,10 @@ T my_max(T a, T b) {
 }
 
 int main() {
-  int v1, v2;
-
-  std::cout << "enter two number:" << std::endl;
-  std::cin >> v1 >> v2;
-
-  std::cout << v1 + v2 << std::endl;
-
+  // 打印mongose版本
+  std::cout << "mongoose version: " << MG_VERSION << std::endl;
+  // 打印zlib版本
+  std::cout << "zlib version: " << zlibVersion() << std::endl;
   return 0;
 }
 
-
-// int main(void) {
-//   // std::cout << "zlib version: " << zlibVersion() << std::endl;
-
-//   std::cout << my_max(1, 2) << std::endl;
-
-//   return 0;
-// }

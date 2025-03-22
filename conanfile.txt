@@ -1,4 +1,5 @@
 [requires]
+mongoose/7.11@user/stable
 zlib/1.2.13  # 添加 zlib 依赖
 
 [generators]
